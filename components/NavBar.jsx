@@ -54,6 +54,11 @@ const NavBar = () => {
                       External API
                     </PageLink>
                   </NavItem>
+                  <NavItem>
+                    <PageLink href="/microposts" className="nav-link" testId="navbar-external">
+                      Microposts
+                    </PageLink>
+                  </NavItem>
                 </>
               )}
             </Nav>
